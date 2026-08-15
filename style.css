@@ -1,0 +1,150 @@
+```css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #17202a;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #e9f7ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 auto 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #687078;
+  margin-bottom: 28px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 16px 0 7px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d5dadd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #25a244;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 22px;
+  background: #168c3a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #11742f;
+}
+
+.result {
+  margin-top: 30px;
+  border-top: 1px solid #e5e7e9;
+  padding-top: 25px;
+}
+
+.result h2 {
+  margin-bottom: 12px;
+}
+
+.payment-box {
+  background: #f3f7f4;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px 0;
+}
+
+.payment-box p {
+  margin: 6px 0 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol {
+  margin: 15px 0 15px 22px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.notice {
+  background: #fff8e6;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.secondary {
+  background: #34495e;
+}
+
+.footer {
+  margin-top: 25px;
+  text-align: center;
+  color: #7b838a;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+```
